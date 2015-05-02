@@ -4,6 +4,7 @@
 <?php
     
     echo "hello word, again!";
+    echo "and wil be blood!";
     
 	/*echo phpinfo()*/    ?>
 <br>
