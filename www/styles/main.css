@@ -1,0 +1,243 @@
+<STYLE TYPE="text/css">
+<!--
+/*boby {background-attachment:fixed}
+[class] {background-color:red;}
+p {font-size:12pt; font-family:calibri; color:black}
+p.red {background-color:red}
+p.gr_bg {background-color:#009900; background-image:url(../l_u_corner.PNG)}
+p.h1 {text-transform:uppercase; text-align:right}
+.jus {text-align:justify; text-indent:100pt; line-height:11pt; word-spacing:7pt; letter-spacing:3pt}
+.vert {font-size:5pt; vertical-align:3pt}
+.underl {text-decoration:underline}
+.line-th {text-decoration:line-through}
+.over (text-decoration:overline}*/
+
+
+* {font-size:6pt;}
+span.dlink {font-size:14pt; }
+/*span {font-size:12pt; font-style:bold; color:blue}*/
+p.dlink {font-size:24pt; color:rgb(20%,10%,70%);}
+/*b {font-size:12pt; color:black}*/
+a.dlink {font-size:18pt;}
+/*
+[href="http://tut.by"] 
+p[class="colored"] {background-color:red;}*/
+/*div ul li {background-color:#00FF33;} 
+  ul li {background-color:red;}
+ p > b {background-color:red;color:#0099FF;}
+  p span {background-color:#000000; color:#009933;}
+  p + ul {color:#FFFFFF; background-color:#000000;}
+  li + li {color:#FF0033; background-color:#6600FF;}
+  a:link {text-decoration:line-throught;}
+  a:focus {color:green; font-size:10pt;}
+  a:hover {color:red;}
+  a:active {font-size:24pt; color:#FFFF33;}
+  li:hover {color:#6600FF; background-color:blue; font-size:13pt}
+  p:first-letter {font-size:16pt; color:red; font-variant:bold;}
+   p:before {content:"@";}
+  p:after {content:" да будет так"; color:red;}*/
+  table.menu tr td:hover {text-decoration:underline;}
+  table.menu {border-bottom-width:3; border-bottom-color:red;}
+   /*построение простого меню*/
+  
+   
+   
+   
+
+   span.submenu1, span.submenu2 {color:white;}
+   span.sm1head:hover span.submenu1 {color:black;}
+    span.submenu1:hover span.submenu2 {color:black;}
+	img.pic {width:200px; height:20px; border-width:20px; border-color:red;}
+/*	a:link {text-decoration:none;}
+	a:hover {color:red; font-style:italic; font-weight:bold; text-decoration:underline;}*/
+	p.onecolor {color:red;}
+	
+	
+	p.px {font-size:20px; 
+	      font-family:'Times New Roman'; 
+		  font-style:oblique; 
+		  font-weight:bolder; 
+		  font-variant:small-caps;}
+
+	p.pt {font-size:20pt; 
+	      font-family:'Times New Roman';  
+		  font-weight:normal;}
+
+	p.ptbold {font-size:20pt; 
+	      font-family:'Times New Roman'; 
+	      font-weight:700;}
+
+	p.em {font-size:20em;}
+
+	b {font-style:oblique;}
+
+	b.cursive {font-style:normal; font-weight:normal;}
+
+
+/*p > b + span {font-weight:bolder; 
+	                 color:red;}*/
+/*span {color:green; text-decoration:none; vertical-align:top;}*/
+
+p.bold {font-weight:900; font-size:24px;}
+p.normal {font-weight:600; font-size:24px;}
+p.light {font-weight:100; font-size:24px;}
+p.big {font-size:24px;}
+/*span.biger {font-size:150%;}*/
+em.biger {font-size:150%;}
+ul {font-size:80%;}
+ul {font-size:26px;}
+p:select {background-color:red;}
+p.variant {font-variant:small-caps;}
+p.uppercase {text-transform:uppercase;}
+/* почему цет текста изменяется взависимости от полежния  b+span, ведь его специфчность меньше*/
+/*p img {padding:1px; float:left;}*/
+p.p_img {text-indent:-10px; padding:1px; color:red; text-align:top;}
+p.align {text-align:right; /*line-height:1px;*/letter-spacing:5px; word-spacing:5px;}
+/*i.val {vertical-align:super;}*/
+
+p.transform:hover {text-transform:capitalize;}
+p.decoration:hover {text-decoration:overline; font-weight:bold; color:red; text-transform:blink; text-shadow:black 3px 2px;}
+
+div.cont {
+ width:200px; 
+ height:200px;
+ color:red;
+ font-size:14px;
+ font-style:italic;
+ font-weight:bold;
+ /*text-decoration:underline;*/
+ /*background-color:yellow;*/
+ text-align:justify;
+ text-decoration:capitalize;
+ word-spacing:2pix;
+ white-space:pre;
+ text-align:left;
+ border-top:3px solid red;
+ border-left: 1px solid black;
+  }
+ /*span {
+  display:block;
+  }*/
+ div p > a {
+ text-decoration:underline; border: 0px; padding:0px; margin:0px;
+ }
+ 
+ div p > a:hover {
+ color:black; font-weight:16px;
+ }
+ 
+ div.height {
+  /*height:400px;*/
+  height:auto;
+  /*padding:10px;*/
+  width:220px;
+  overflow:auto;
+  border:7px solid red;
+  margin:20px;
+    }
+
+img.pngindiv {
+ padding:10px;
+ width:200px;
+ height:200px;
+  }
+
+div.menubl {
+ height:auto;
+ width:411px;
+ border: 1px solid grey;
+ }
+ 
+img.menublcont {
+ height:599px;
+ width:399px;
+ margin:5px;
+ border:1px solid red;
+ }
+
+ ul.menu {
+ border: 1px solid green;
+ margin-bottom:-10px;
+ background-image:url(../menubg.png);
+ }
+
+ ul.menu  li {
+ background-color:red;
+ margin-top:-10px;
+ margin-bottom:10px;
+ width:200px;
+ border: 1px solid green;
+ background-image:url(../menu_button.png)
+ }
+
+.text {
+color:black;
+margin-top:35px;
+border: 1px dotted green;
+/*padding: 20px;*/
+padding-left:20px;
+width:411px;
+}
+
+p.spantext {
+border: 1px solid red;
+width:300px;
+height:80px;
+text-align:justify;
+color:white;
+background-color:black;
+}
+
+p.spantext span.tx {
+ background-color:#ffff99;
+ line-height:120%;
+ letter-spacing:1px;
+ font-size:18px;
+ font-weight:bold;
+ font-family:Calibri;
+ vertical-align:bottom;
+ color:black;
+ border: 1px dashed green;
+   }
+
+p a:hover {
+border: 1px solid blue;
+padding-left: 20px;
+background-image:url(../test1.jpg);
+}
+
+p a:link {
+text-decoration:none;
+color:blue;
+}
+
+div.border {
+ height:40px;
+ width:200px;
+ border: 1px dotted red ;
+ }
+ div.border p {
+ border: solid red 1px;
+ }
+
+ /*#imgtext {
+ width:20px;
+ height:20px;
+ }*/
+#text {
+color:red;
+vertical-align:;
+}
+
+ #ico {
+ width:20px;
+ height:30px;
+ }
+
+ div#block a {
+ display:block;
+ color:red;
+ 
+ }
+-->
+</STYLE> 
