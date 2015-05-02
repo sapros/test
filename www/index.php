@@ -6,6 +6,7 @@
     echo "hello word, again!";
     echo "and wil be blood!";
     echo "and wil be blood! Part 2";
+    echo "then I have done somethin else";
     
 	/*echo phpinfo()*/    ?>
 <br>
